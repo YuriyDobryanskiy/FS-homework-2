@@ -33,8 +33,7 @@ html {
 /* Resets */
 * {
   margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+  /*padding: 0;*/
   /*transition: var(--transition);*/
 }
 
@@ -63,35 +62,35 @@ a:hover {
 
 header {
   background-color: var(--white);
-  display: -webkit-flex;
+  /*display: -webkit-flex;
   display: flex;
   -webkit-flex-direction: row;
-  flex-direction: row;
+  flex-direction: row;*/
   -webkit-flex-wrap: nowrap;
   flex-wrap: nowrap;
   -webkit-justify-content: space-between;
   justify-content: space-between;
   -webkit-align-content: flex-start;
   align-content: flex-start;
-  -webkit-align-items: baseline;
-  align-items: baseline;
+  /*-webkit-align-items: baseline;
+  align-items: baseline;*/
 
-  padding: 24px 156px;
+  /*padding: 24px 156px;*/
 }
 header > nav {
-  -webkit-order: 0;
-  order: 0;
+  /*-webkit-order: 0;
+  order: 0;*/
   -webkit-flex: 0 1 auto;
   flex: 0 1 auto;
   -webkit-align-self: flex-start;
   align-self: flex-start;
   font-weight: var(--bold-font);
 
-  display: flex;
-  flex-direction: row;
+  /*display: flex;
+  flex-direction: row;*/
   flex-wrap: nowrap;
   justify-content: normal;
-  align-items: center;
+  /*align-items: center;*/
 }
 header > nav > .logo,
 footer > .logo {
@@ -103,11 +102,11 @@ footer > .logo {
   letter-spacing: 0.03em;
   color: var(--iris);
   display: block;
-  flex-grow: 0;
+  /*flex-grow: 0;*/
   flex-shrink: 1;
   flex-basis: auto;
   align-self: auto;
-  order: 0;
+  /*order: 0;*/
   margin-right: 76px;
 }
 header > nav > .logo .studio {
@@ -122,18 +121,18 @@ header > nav ul {
   line-height: 1.5;
   letter-spacing: 0.32px;
 
-  display: block;
-  flex-grow: 0;
+  /*display: block;
+  flex-grow: 0;*/
   flex-shrink: 1;
   flex-basis: auto;
   align-self: auto;
-  order: 0;
+  /*order: 0;*/
 }
 header > nav ul li,
 header > address ul li {
-  display: inline-block;
+  /*display: inline-block;*/
   margin-right: 40px;
-  position: relative;
+  /*position: relative;*/
 }
 header > nav ul li a,
 header > address ul li a {
@@ -154,11 +153,11 @@ header > address ul li a:focus {
 }
 header > nav ul li a::after {
   content: '';
-  position: absolute;
+  /*position: absolute;*/
   bottom: -5px;
-  left: 0;
+  /*left: 0;
   width: 100%;
-  height: 3px;
+  height: 3px;*/
   background-color: var(--ocean);
   transform: scaleX(0);
   transform-origin: left center;
@@ -174,8 +173,8 @@ header > nav ul li > .mainLink:focus {
 /*nav*/
 
 header > address {
-  -webkit-order: 0;
-  order: 0;
+  /*-webkit-order: 0;
+  order: 0;*/
   -webkit-flex: 0 1 auto;
   flex: 0 1 auto;
   -webkit-align-self: auto;
@@ -189,7 +188,7 @@ main .parts,
 main .team,
 main .portfolio,
 footer {
-  padding: 188px 156px;
+  /*padding: 188px 156px;*/
 }
 main .solution {
   background: var(--navyblue);
@@ -202,7 +201,7 @@ main .solution h1 {
   font-weight: var(--bolder-font);
   line-height: 1.07;
   letter-spacing: 1.12px;
-  width: 500px;
+  /*width: 500px;*/
   margin: 0 auto 48px;
 }
 main .solution > button {
@@ -210,36 +209,33 @@ main .solution > button {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  border-radius: 4px;
+  /*border-radius: 4px;*/
   background: var(--iris);
   color: var(--white);
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  /*box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);*/
   border: 0;
-  padding: 16px 32px;
+  /*padding: 16px 32px;*/
   letter-spacing: 0.04em;
   transition: background-color 0.3s ease-out;
 }
-main .solution button:hover {
-  background-color: #404bbf;
-  cursor: pointer;
-}
-main .solution button:focus {
+main .solution > button:hover,
+main .solution > button:focus {
   background-color: #404bbf;
   cursor: pointer;
 }
 /*solution*/
 main .parts {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  /*padding-top: 120px;
+  padding-bottom: 120px;*/
 }
 main .parts ul,
 main .team ul,
 main .portfolio ul {
-  display: flex;
-  flex-direction: row;
+  /*display: flex;
+  flex-direction: row;*/
   flex-wrap: nowrap;
   justify-content: center;
-  align-items: flex-start;
+  /*align-items: flex-start;*/
   align-content: flex-start;
 }
 main .parts h2,
@@ -252,7 +248,7 @@ main .portfolio h2 {
   letter-spacing: 0.72px;
   text-transform: capitalize;
   text-align: center;
-  display: none;
+  /*display: none;*/
   margin-bottom: 72px;
   line-height: 1.11;
   color: #2e2f42;
@@ -261,12 +257,12 @@ main .portfolio h2 {
 main .parts .block,
 main .team .person,
 main .portfolio .work {
-  display: block;
-  flex-grow: 0;
+  /*display: block;
+  flex-grow: 0;*/
   flex-shrink: 1;
   flex-basis: auto;
   align-self: auto;
-  order: 0;
+  /*order: 0;*/
   margin-right: 24px;
 }
 main .parts .block h3 {
@@ -283,28 +279,28 @@ main .parts .block p {
 
 /*parts*/
 main .team {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  /*padding-top: 120px;
+  padding-bottom: 120px;*/
   background: var(--cloud);
 }
 main .team h2,
 main .portfolio h2 {
-  display: block;
+  /*display: block;*/
   color: #2e2f42;
 }
 main .team ul li {
-  padding-bottom: 32px;
+  /*padding-bottom: 32px;*/
   text-align: center;
-  border-radius: 0px 0px 4px 4px;
+  /*border-radius: 0px 0px 4px 4px;*/
   background: var(--white);
-  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+  /*box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
-    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);*/
 }
 main .team ul li img,
 main .portfolio img {
   margin-bottom: 32px;
-  display: block;
+  /*display: block;*/
 }
 main .team ul li h3 {
   font-size: 20px;
@@ -326,13 +322,13 @@ main .portfolio ul {
   flex-wrap: wrap;
 }
 main .portfolio {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  /*padding-top: 120px;
+  padding-bottom: 120px;*/
 }
 main .portfolio .work {
   border: 1px solid var(--cornflower);
   background: var(--white);
-  padding-bottom: 32px;
+  /*padding-bottom: 32px;*/
 }
 main .portfolio .work:first-child {
   margin-bottom: 48px;
@@ -342,17 +338,17 @@ main .portfolio .work h3 {
   font-weight: var(--bold-font);
   line-height: 24px;
   letter-spacing: 0.4px;
-  padding: 0 16px;
+  /*padding: 0 16px;*/
   color: #2e2f42;
 }
 main .portfolio .work p {
-  padding: 0 16px;
+  /*padding: 0 16px;*/
 }
 /*portfolio*/
 /*footer*/
 footer {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  /*padding-top: 100px;
+  padding-bottom: 100px;*/
   background: var(--navyblue);
 }
 footer > a span {
@@ -363,7 +359,7 @@ footer > a {
   margin-bottom: 17px;
 }
 footer > p {
-  width: 264px;
+  /*width: 264px;*/
   color: var(--cloud);
   letter-spacing: 0.32px;
 }
