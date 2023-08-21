@@ -70,7 +70,6 @@ footer > .logo {
   text-transform: uppercase;
   letter-spacing: 0.03em;
   color: var(--iris);
-  display: block;
 
   margin-right: 76px;
 }
