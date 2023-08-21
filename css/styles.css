@@ -219,7 +219,10 @@ main .solution > button {
   letter-spacing: 0.04em;
   transition: background-color 0.3s ease-out;
 }
-main .solution button:hover,
+main .solution button:hover {
+  background-color: #404bbf;
+  cursor: pointer;
+}
 main .solution button:focus {
   background-color: #404bbf;
   cursor: pointer;
