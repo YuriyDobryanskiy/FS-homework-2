@@ -110,8 +110,7 @@ footer > .logo {
   order: 0;
   margin-right: 76px;
 }
-header > nav > .logo .studio,
-footer > .logo > .studio {
+header > nav > .logo .studio {
   color: var(--navyblue);
 }
 header > nav > a:hover,
@@ -350,6 +349,9 @@ footer {
   padding-top: 100px;
   padding-bottom: 100px;
   background: var(--navyblue);
+}
+footer > a span {
+  color: #f4f4fd;
 }
 footer > a {
   color: var(--white);
