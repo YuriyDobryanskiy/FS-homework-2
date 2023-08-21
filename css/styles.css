@@ -252,11 +252,10 @@ main .portfolio h2 {
   text-align: center;
   display: none;
   margin-bottom: 72px;
-}
-main .team h2 {
   line-height: 1.11;
   color: #2e2f42;
 }
+
 main .parts .block,
 main .team .person,
 main .portfolio .work {
@@ -310,6 +309,7 @@ main .team ul li h3 {
   line-height: 24px;
   letter-spacing: 0.4px;
   margin-bottom: 8px;
+  color: #2e2f42;
 }
 main .team ul li p,
 main .portfolio .work p {
@@ -317,6 +317,7 @@ main .portfolio .work p {
 }
 /*team*/
 /*portfolio*/
+
 main .team ul,
 main .portfolio ul {
   flex-wrap: wrap;
