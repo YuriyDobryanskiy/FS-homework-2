@@ -221,7 +221,7 @@ main .solution > button {
 }
 main .solution > button:hover,
 main .solution > button:focus {
-  background: #404bbf;
+  background-color: #404bbf;
   cursor: pointer;
 }
 /*solution*/
@@ -267,6 +267,7 @@ main .portfolio .work {
   margin-right: 24px;
 }
 main .parts .block h3 {
+  color: #2e2f42;
   font-size: 20px;
   line-height: 24px;
   font-weight: var(--bold-font);
