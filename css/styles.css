@@ -240,6 +240,7 @@ main .portfolio ul {
 main .parts h2,
 main .team h2,
 main .portfolio h2 {
+  color: #2e2f42;
   font-size: 36px;
   font-weight: var(--bolder-font);
   line-height: 40px;
