@@ -144,11 +144,14 @@ header > address ul li a {
   letter-spacing: 0.02em;
   color: var(--navybluemodal);
 }
+header > address ul li a {
+  color: #434455;
+}
 header > nav ul li a:hover,
 header > address ul li a:hover,
-header > nav ul li a:active,
-header > address ul li a:active {
-  color: var(--ocean);
+header > nav ul li a:focus,
+header > address ul li a:focus {
+  color: #404bbf;
 }
 header > nav ul li a::after {
   content: '';
@@ -218,7 +221,7 @@ main .solution > button {
   transition: background-color 0.3s ease-out;
 }
 main .solution > button:hover,
-main .solution > button:active {
+main .solution > button:focus {
   background: #404bbf;
   cursor: pointer;
 }
@@ -249,6 +252,10 @@ main .portfolio h2 {
   text-align: center;
   display: none;
   margin-bottom: 72px;
+}
+main .team h2 {
+  line-height: 1.11;
+  color: #2e2f42;
 }
 main .parts .block,
 main .team .person,
@@ -281,6 +288,7 @@ main .team {
 main .team h2,
 main .portfolio h2 {
   display: block;
+  color: #2e2f42;
 }
 main .team ul li {
   padding-bottom: 32px;
